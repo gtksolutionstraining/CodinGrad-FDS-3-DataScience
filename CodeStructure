@@ -1,0 +1,9 @@
+SOLID Principles
+
+S -- Single Responsibility
+O -- Open for extension and Closed for modification
+
+services --> 
+    1. external --> All components --> SO
+    2. internal --> It will be an intermediate between external and internal services --> Facade
+

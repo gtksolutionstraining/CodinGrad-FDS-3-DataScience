@@ -1,0 +1,9 @@
+Problem Statement: Given a data, what are sanity checks that can be done on the data 
+so that it can be validated before feeding into an ML model.
+
+Solution:
+1. Approach -- Object Oriented Programming
+2. Programming Language -- Python
+3. Modules -- Pandas, Numpy, Pandas Profiling, DataPrep.EDA, Dask
+4. Statistical Concepts -- Descriptive Statistics --> Attributes
+5. Probability Concepts -- Distribution of the data and different statistical tests
