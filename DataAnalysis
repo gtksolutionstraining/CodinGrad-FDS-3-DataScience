@@ -1,0 +1,23 @@
+Data
+
+Examples: Rows, Observations, instances, Record, Tuple
+Columns: Attributes, Features, Vectors, Variables
+    --> Numerical Attributes
+    --> Categorical Attributes
+
+Numerical Attributes --> 
+--> Data type of the Numerical Attribute is always a number --> Interger, Floating
+--> Interval-Scaled Attributes
+    ---> if subtraction of values of an attribute make sense then such attributes are called Interval-Scaled attributes
+    ---> example: Age ---> 
+--> Ratio-Scaled Attributes
+
+Categorical Attributes:
+--> Data type of the Categorical Attriues can be either String or even a number
+--> Unary Attributes
+--> Binary Attributes
+--> Ordinal Attributes
+--> Nominal Attributes
+    ---> Important Nominal Attributes
+    ---> Non Important or Ignorable Nominal Attributes
+
