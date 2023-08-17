@@ -1,0 +1,49 @@
+Raw Data
+Data Engineering --> Processed Data --> Information
+Analytical Statistics Exploratory Data Analysis (EDA) --> 
+    ---> You need to understand the data
+        1. Describing the data
+            1. Visualizations
+                1. Box Plot
+                2. Historgram
+                3. Bar Chart
+                4. Scatter Plot
+                5. Density Plot
+                6. Line Plot 
+            2. Summarizing the data
+                1. Basic Summary
+                2. Measures of Central Tendencies
+                3. Data Distributions
+                    1. Probability Density functions
+                    2. Variance
+                    3. Standard Deviation
+                    4. Dispersion
+                    5. Skewness
+                    6. Kurtosis
+            
+Data --> CSV file
+Major Components of the Data:
+    1. Rows  --> Observations, Examples, Experiments, Tuple, Records, Instances, Data Point
+        1. Pharma Industry:
+            --> What chemicals should be mixed in what percentages
+            --> Huge number of experiments to invent a new drug
+            --> Experiment1 --> (Ca-1,Mag-2,.....)
+    2. Columns --> Feature, Variable, Attribute, Field
+            --> Numerical Features --> A feature will have continuos data
+                --> Interval Scaled --> Interval or subtraction or addition of continuous data make sense here and ratio or division or multiplication doesn't make any sense
+                --> Ratio Scaled --> Addition,Subtraction, Multiplication and Division(Ratio) these operations make sense on the data
+            --> Categorical Features --> A feature will have discrete values --> Limited discrete values
+                ---> Categorical Threshold = 50
+                ---> Unary Features ==> Only 1 Discrete value
+                ---> Binary Features ==> Only 2 Discrete Values
+                ---> Nominal Features ==> more than 2 discrete values
+                    --> marital_status ==> single,married, divorced, widow
+                    --> Important Nominal Features --> marital_status
+                    --> Non Important Nominal Features --> passenger_ID, All primary keys are non important nominal features, EMPLOYEE_ID
+
+
+
+Experiments     Ca%     Ma%     Na%     Al%     ..  result  howmuchimpactedon ..
+experminent1    --      ---     --      --          --      0
+exoerm
+
