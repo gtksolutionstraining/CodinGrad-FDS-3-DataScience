@@ -7,6 +7,9 @@ Summarizing the Data:
         ---> Variance
         ---> Range = max-min
         ---> Quartiles
+            ---> Q0, Q1, Q2, Q3, Q4
+            ---> Q2 is Central Tendency
+            ---> Q3-Q1 --> InterQuartile Range (IQR)
         ---> Skewness
         ---> Kurtosis
     --> Some Desnity functions
@@ -53,4 +56,28 @@ Review Calculation --> Summarizing reviews and making one simple number which is
 10,10,20,20,30
 
 
-        
+Data Distribution:
+    --> Histogram
+    --> kernel Density Estimation (KDE) --> Density Function --> Density Curve
+    --> If this Density Curve looks like Bell Shape --> Normal Distribution
+    --> Spiked Data Distribution --> Undesirable
+    --> Kurtosis Data Distribution --> Undesirable
+    --> Positively Skewed Data Distribution --> Undesirable
+    --> Negatively Skewed Data Distribution
+    --> Uniform Data Distribution --> Ideal Distribution
+
+
+Accuracy of Understanding Of Data:
+
+-> Measure Central Tendency
+    --> Median > Mean
+    --> Gmean > Median
+
+-> Data Distribution
+    --> Density Curves 
+
+-> Measure of dispersion
+    --> Range
+    --> IQR
+    --> Variance
+    --> Standard Deviation
