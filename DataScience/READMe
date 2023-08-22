@@ -1,0 +1,19 @@
+Problem Statement --> When you build a model, we need the model to be more robust. We need the data which we are going to feed to the models should be proper and well tested. 
+    1. Assessment --> Test the dataset
+    2. Suggestions --> Good Suggestions
+    3. Implementations --> Implement those suggestions --> Data manipulation
+    4. Model Training
+
+Solution:
+    1. We will analyse the data statistically
+    2. Will understand the data and come up with some conditions
+    3. Based on the conditions we will suggest what to do.
+
+TechStac:
+    1. Python
+    2. Pandas
+    3. Pandas Profiling --> Y Data Profiling
+    4. DataPrep.EDA
+    5. Dask
+    6. Numpy
+    7. OOPs --> SO --> 

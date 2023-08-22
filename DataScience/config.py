@@ -1,0 +1,1 @@
+DATA_PATH = "assets/titanic.csv"
