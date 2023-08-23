@@ -1,8 +1,8 @@
-from services.external.profilers.pandasProfiler import(
+from services.external.profilers.pandasProfiler.profiler import(
     PandasProfiler
 )
 
 class ProfileManager:
-    def __init__(self,data):
-        self.pandasProfiler = PandasProfiler(data)
+    def __init__(self,dataPath):
+        self.pandasProfiler = PandasProfiler(dataPath)
     

@@ -1,0 +1,16 @@
+DataProfiling --> Summarizing
+
+--> Basic Summary of the Data:
+1. Number of features
+2. Number of datapoints
+3. Number of duplicate datapoints
+4. Total Number of missing cells
+5. Numerical features
+    1. Integer
+    2. Float 
+6. Categorical features
+    1. Unique 
+    2. Binary
+    3. Ordinal
+    4. Nominal
+7. List out features which have null values
