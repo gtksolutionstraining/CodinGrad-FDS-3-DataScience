@@ -1,0 +1,69 @@
+1. Supervised Machine Learning 
+**** Data Driven Models
+    1. Structural Machine Learning
+        1. Linear Regression
+        2. Logistic Regression
+        3. Decision Trees
+        4. Random Forests
+    2. Neural Networks
+        1. Perceptron
+        2. Single Layer Neural Network
+        3. Multi Layer Neural Network
+    3. Deep Neural Networks
+    4. Machine Learning Strategies
+        1. Train,Validation and Test Datasets
+        2. Bias and Variance
+        3. Hyperparameters & Tuning
+        4. Regularizations & Dropouts
+        5. Normalization
+        6. Batch Normalization
+        7. Optimization
+            1. Gradient Descent
+            2. RMS prop 
+            3. Adam
+        8. Activation Functions
+        9. Callbacks
+        10. Model Evaluation
+    5. Computer Vision Models
+        1. Convolutional Operation
+        2. Basic CNN Architectures
+            1. LeNet-5
+            2. Alex Net
+            3. VGG - 16
+            4. Google Net --> Inception Net
+            5. ResNet
+            6. MobileNet
+            7. Efficient Net
+        3. Object Detection
+            1. YOLO
+        4. Image Segmentation
+            2. U-Net
+    6. Sequence Models
+        1. Text Processing
+            1. Probabilistic Model
+            2. Bigram Model
+            3. MLP
+            4. Tranformers
+        2. Audio Processing
+2. Semi Supervised Machine Learning
+    --> Will have the supervision and also will generate the data.
+    --> Classification ==> Movie Feedback ==> Classify ==> 4*
+        --> Training Data
+            1. Astonished --> 5
+            2. Good --------> 4
+            3. Average ------> 3
+            4. Well Performed --> 5
+            5. I was in different world while watching movie --> 5
+        --> Reviews ==> based on the knowledge that the model has, model will cluster the review and send it for review.
+    --> Classification Model ==> Cluster the movie reviews.
+3. Unsupervised Machine Learning
+    --> Clustering the data
+        1. K Means, Eucleadian Distance
+            X - is an example
+            X -> (X11,X12,X13,....)
+                 (X21,X22,X23,....)
+            D -> sqrt((X21-X11)^2 + (X22-X12)^2 + ....)
+        2. KNN
+4. Reinforcement Machine Learning
+    --> If ML model predicts something it will get penalty or a bounty
+

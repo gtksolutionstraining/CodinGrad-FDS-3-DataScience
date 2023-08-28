@@ -1,0 +1,89 @@
+A line equation --> y = mx + c
+    --> m ==> slope
+    --> c ==> intercept
+
+    --> Example1: y = x
+        (0,0),(1,1),(2,2) .....
+        m = 1, c = 0
+    --> Example2: y = 2x
+        (0,0),(1,2), (2,4),....
+
+    --> Example: y = x + 2
+        (0,2),(1,3),(2,4),(3,5),...
+
+    m = 1
+    slope = 1
+    tan(0) = 1
+    0 = 45`
+
+--> Slope will give the direction
+--> The sign of the slope will determine the direction of the function
+
+ ---> Example4: y = -x 
+        (0,0),(1,-1),(2,-2),(3,-3),...
+        m = -1
+
+ ===> m = + --> Increase
+ ===> m = - --> Decrease
+
+ ===> The value of the slope determines exact leaning of the line w.r.t x
+
+ ===> Intercept --> From Where the function is starting
+
+
+ y = mx + c 
+
+Differentiation will tell you the slope of the function
+
+y = mx + c
+
+y = x^2+2x+5
+
+slope = 2x+2
+
+Differentiation of y w.r.t x==> How small change in x will reflect y
+
+        y = x^2 
+        (0,0), (1,1), (2,4), (3,9), (4,16), (5,25)
+
+        m = 2x
+
+        x = 1   => y = 1
+        m = 2   => m = 2
+
+        x = 2   => y = 4
+        m = 4   => m = 4
+
+        x = 3   => y = 9
+        m = 6   => m = 6
+
+        x = 4
+        m = 8
+
+        Lt   (f(x+h) - f(x))/h ==> Slope
+        h->0
+
+        h = 0.001
+
+        f(x+0.001) = f(2.001) => 4.004001
+        f(x) = f(2) ==> 4
+ 
+        0.004001/0.001 = 4
+
+
+        h = 0.00001
+        x = 4
+
+        (f(x+h)-f(x))/h
+
+        f(4.00001)-f(4)
+
+        f(4.00001) = y = 4.00001 * 4.00001 = 16.0000800001
+        f(4) = y = 4*4 = 16
+
+        f(x+h) - f(x) = 0.0000800001
+
+        (f(x+h) - f(x))/h = 0.0000800001/0.00001 = 8.00001 = 8
+
+
+    ==> Differentiation/Partial Differentiation will explain how much the function will effect if there is a small change in x

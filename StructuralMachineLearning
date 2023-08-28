@@ -1,0 +1,10 @@
+The Data is structurally mantained then the models derived from the data are called-
+-structural ML models
+
+Structural Data:
+    1. Databases --> Rows and Columns
+    2. CSV --> Rows and Columns
+    3. JSON --> Semi Structured Data
+    4. XML --> Semi Structured Data
+    5. Excel --> CSV
+    6. TSV -- Tab Seperated Value
