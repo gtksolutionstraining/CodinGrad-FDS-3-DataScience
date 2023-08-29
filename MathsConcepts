@@ -87,3 +87,45 @@ Differentiation of y w.r.t x==> How small change in x will reflect y
 
 
     ==> Differentiation/Partial Differentiation will explain how much the function will effect if there is a small change in x
+
+Calculus:
+
+    Given a function y = f(x).
+    If a function f(x) is differentiable then we can find the minimum value of y
+        --> Local Minima
+        --> Global Minima
+        --> A differentiable functions can have multiple local minimas
+
+    Example: y = 4x^2 + 5x + 7
+
+            dy/dx = 8x + 5 = 0
+
+            x = -5/8
+
+            y = 4*25/64 -25/8 + 7
+            y = 1.5625 - 3.125 + 7
+
+        Global minimum value of the function = 5.43
+
+        global minima coordinate = (x,y) = (-0.625,5.43)
+
+
+    slope = 8x + 5
+
+    what is the slope at x = 5
+
+    slope = 8*5 + 5
+          = 45
+        
+    the minima is in positive direction and you can forward to tan(0) = 45 --> 0 = ?
+
+    slope = -4
+    Convergence ==> To get the minimum
+
+Linear Algebra:
+
+    --> Matrix Multiplication of 2 matrices--> Dot Product
+    --> Transpose of the Matrix
+    --> Addition of the 2 matrices
+    --> Subtraction of the 2 matrices
+    --> Element wise matrix Multiplication
