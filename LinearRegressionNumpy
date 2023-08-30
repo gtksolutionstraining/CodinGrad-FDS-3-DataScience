@@ -1,0 +1,29 @@
+Lets take m number of examples
+Lets take n number of features/example -->[x1,x2,x3,....,xn]
+Lets take 1 value for label(Y_actual)
+
+Lets take ith example (x1(i), x2(i), x3(i), x4(i), ......xn(i), y(i))
+
+Y_pred(i) = w1*x1(i) + w2*x2(i) + ... wn+xn(i) + b 
+
+    w -> weight
+    b -> bias
+
+loss = 0
+for example in m:
+    y_pred[i] = w1*x1[i] + w2*x2[i] + ...... + wn*xn[i] + b
+    loss = (y_pred[i]-y_actual[i])^2
+
+loss = loss/m
+
+    
+y_pred = np.dot(W.T,X) + b
+
+Linear Regression Model ==> y = mx+c
+                        ==> y = m1*x1+.....mn*xn +c 
+                        ==> y = W^T.X + b
+X = (n,m)
+W = (n,1)
+
+b = (1,m)
+
