@@ -1,0 +1,15 @@
+What y = f(x) = mx+c is doing
+What dy/dx is doing 
+What the sign (+/-) is doing for m --> The direction (Go up (or) Go down) to achieve the minimum value of the function
+What the value of m is doing --> Slope --> How much you need to lean
+
+If the function is differentiable, then you can definitly find the global minima or local minima.
+
+y = mx + c is a 2D function
+
+
+Linear Regression:
+
+y --> A label
+x --> A feature
+

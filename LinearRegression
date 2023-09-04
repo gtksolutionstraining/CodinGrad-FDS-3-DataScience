@@ -71,3 +71,10 @@ To find these values m1,m2,m3,...c the process involved is called Model Training
 Optimization Problem
 
 ==> Hypothesis Space (H)
+
+
+Regression ==> Predicts continuous value
+
+--> Model is predicting between 0,1 ==> infinite possibilities
+
+Classification ==> Predicts continuous value, but we will have a threshold to decide the Classification
