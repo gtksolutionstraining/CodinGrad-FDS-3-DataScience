@@ -1,0 +1,48 @@
+Problem: You have been given an image. You need to find that whether the image is 
+cat or not.
+
+Image --> (64,64,3)
+Number of features = 12288 = n
+Number of images (training examples) = m
+
+    X -> Representation of whole Training Dataset as (n,m) 
+    where n -> number of features of each examples and
+          m -> number of training examples
+
+    X -> Input Matrix  --> (n,m)
+    Y -> Output Matrix --> (1,m)
+
+Binary Classification Problem --> We are classifying an input to either of the 
+2 options --> Is cat or not
+
+To Solve this problem we will be using basic algorithm called Logistic Regression
+
+Given an image x ==> P(y=1|x)
+Example --> dog image --> P(y=1|x) =~ 0
+Example --> Cat image --> P(y=1|x) =~ 1
+
+Output Y_pred = dot(W.T,X) + b
+
+Parameters --> W --> (n,1) --> Number of features
+           --> b --> (1)
+
+(1,m) = (1,n) * (n,m) + (1,)
+      = (1,m) + (1,)
+      = (1,m) + (1,m)
+      = (1,m)
+
+Z = dot(W.T,X) + b
+
+Y_pred = Sigmoid(Z) The output will range from (0,1)
+
+f(z) = sigmoid(z) = 1/(1+e^-z)
+
+Y_pred = Sigmoid(dot(W.T,X)+b)
+
+Y_actual
+
+L(Y_pred,Y_actual) = -1/2(Y_pred-Y_actual)^2 --> Is not a differentiable function
+
+L = -(YlogY^ + (1-Y)log(1-Y^)) ==> Logloss
+
+Derivative of W w.r.t L so that we can find how much change of W will impact the loss
