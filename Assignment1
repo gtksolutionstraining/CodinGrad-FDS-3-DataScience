@@ -1,0 +1,5 @@
+1. Number of features = 10, number of examples = 393, no of nodes in 1st layer = 18, no of nodes in output layer = 1
+==> How many parameters
+==> Shapes of parameters
+
+2. Number of features = 10, number of examples = 393, no of nodes in 1st layer = 18, no of nodes in 2nd layer = 6, no of nodes in output layer = 1

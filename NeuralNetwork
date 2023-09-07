@@ -1,0 +1,23 @@
+Number of features = n 
+Number of examples = m
+Number of neurons in layer 1 = l1
+Number of output neuron = 1
+
+
+The shapes of the weight --> 
+
+    W1 = (n,l1), b1 = (l1,)
+    W2 = (l1,1), b2 = (1,)
+
+    Z1 = W1.T @ X + b1
+
+        (l1,n) (n,m)
+
+    (l1,m) = (l1,m) + (l1,)
+
+    A1 = (l1,m)
+
+    Z2 = W2.T @ A1 + b1
+
+        = (1,l1) (l1,m)
+        = (1,m) + (1,)
