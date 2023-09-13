@@ -47,6 +47,29 @@ stride ----> s
 
 
 input matrix (256,256,16)
-filter size is 3, no of filters = 16
+filter size is 3, no of filters = 32
 s = 1, p = 0
-Output size ==> (256+0-3)/1 +1 = (254,254,16)
+Output size ==> (256+0-3)/1 +1 = (254,254,32)
+
+
+No of parameters:
+Single Convolution operation
+input matrix --> (6,6)
+filter       --> (3,3)
+output --------> (4,4)
+
+no of parameters => 3*3 = 9
+
+input matrix --> (6,6,3)
+filter       --> (3,3,3)
+output --------> (4,4,1)
+no of parameters ==> 3*3*4 = 27
+
+input matrix --> (6,6,3)
+filter       --> (3,3,3) -- 16
+output --------> (4,4,1)
+
+no of parameters --> 3*3*3*16 =
+
+
+
