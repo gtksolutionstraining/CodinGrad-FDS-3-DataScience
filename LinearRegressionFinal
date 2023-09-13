@@ -13,3 +13,25 @@ Linear Regression:
 y --> A label
 x --> A feature
 
+y --> A label
+x1,x2,x3,x4,... --> Features
+
+y = m1*x1 + m2*x2 + ..... + mn*xn + c
+
+y = w1*x1 + w2*x2 + ..... + wn*xn + b
+    w --> Weight
+    b --> Bias
+
+Dataset CSV --> Rows and Columns
+
+Rows --> Examples, Observations
+Columns --> Features, Variables
+
+number of examples = m
+number of features = n 
+label =  y
+
+Example: Titanic Dataset
+1. m = 418
+2. n = 4
+3. y = 1 --> Survived

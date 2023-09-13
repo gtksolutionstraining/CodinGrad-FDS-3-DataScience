@@ -1,0 +1,52 @@
+Convolution is an operation
+Convolution operation can be operated by an Image/FeatureVector and a Kernel/Filter
+Addition operation --> integers/floats + integers/floats
+Convolutional Operations will give you richer set of feature representations
+More efficient while predicting
+
+Input Image --> size = n
+Filter -------> size = f
+Steps  -------> stride = s
+
+Output matrxi size --> (n-f+1)/s
+
+Image 256,256 --> filter (3,3) --> Stride --> 2
+
+            256-3+1 ==> 254/2 --> 127
+
+            ---> filter (4,4)
+
+            --> filter size always should be (3,3), (5,5), (7,7),...
+
+When the focus is on central features of the image then the above process is good. --> Valid Convolution
+
+Same Convolution: --> padding --> p --> If you want to preserve edge data then we have to do Same Convolution 
+            -- p = 1
+
+            --> The shape of the output matrix --> ((n+2p-f)/s)+1
+
+
+Pooling Operations: If you want to learn brightness then we need to do pooling operations
+
+
+Convolutional Operations are basic building block of the CNN
+
+Input Image is 2D --> black white Dimension. --> 256 
+
+
+Input Matrix --> (6,6,3)
+Filter size ---> (3,3,3) no_ filters = 16 
+Output matrix --> p =0, s= 1 -> (4,4,16)
+
+input matrix size --> n
+filter size --> f
+no of filters --> k --> No of kernel
+padding --> p
+stride ----> s
+
+
+
+input matrix (256,256,16)
+filter size is 3, no of filters = 16
+s = 1, p = 0
+Output size ==> (256+0-3)/1 +1 = (254,254,16)
