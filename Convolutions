@@ -27,7 +27,10 @@ Same Convolution: --> padding --> p --> If you want to preserve edge data then w
 
 
 Pooling Operations: If you want to learn brightness then we need to do pooling operations
+1. Max Pooling
+2. Average Pooling
 
+--> Pooling operations are independent of channels
 
 Convolutional Operations are basic building block of the CNN
 

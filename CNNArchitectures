@@ -1,0 +1,51 @@
+1. LeNet - 5
+               f = 5            f = 2            f = 5
+               k = 6            s = 2            k = 16
+==> (32,32,1) ------> (28,28,6) -----> (14,14,6) ----->  (10,10,16)
+               Conv1            Avg Pool          Conv
+
+f = 2         
+s = 2         Flattening
+----> (5,5,16) --------> (400,1) ----> 120 -----> 84 ----> 10 
+
+** Pooling Operations doesn't have any parameters, Flattening.
+Number of parameters:
+
+Conv1 ===> (5,5,1) * 6 ==>   150 + 6 =  156
+Conv2 ===> (5,5,6) * 16 ==> 2400 + 16 = 2416
+NN1 =====> (120,400) =====> 48000 + 120 = 48120
+NN2 =====> (84,120)  =====> 10080 + 84 = 10164
+Last ====> (10,84)   =====> 840 + 10 = 850
+
+Total Number of Params ====> 
+
+Model Size = 61470 * 8B
+
+2. AlexNet
+3. VGG-16
+4. ResNet -Types --> ResNet Block
+5. Inception Net -- GoogleNet --> Inception Blocks
+6. Efficient Net 
+7. MobileNet -- Versions
+    Depth-Wise-Seperable Convolution ==> Point Convolution
+
+
+Computational Cost:
+
+            f = 5
+            k = 32
+            p = 1
+(28,28,192) ----------> (28,28,32)
+
+Number of additions ==> (5*5*192) * (28*28*32) ~= 120Million  
+
+
+Point Convolution: --> Depth-Wise-Seperable
+            f = 1
+            k = 32
+            p = 1
+(28,28,192) -----------> (28,28,32)
+
+Number of additions ==> (1*1*192) * (28*28*32) ~= 48Lacks
+
+Performance --> 12000/48 ==> 250 Times  
